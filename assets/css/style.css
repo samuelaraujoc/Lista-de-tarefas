@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(9, 112, 177);
+  --primary-color-darker: rgb(63, 103, 111);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #31414d;
+  
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  
+}
+
+.btn-tarefa:hover {
+  background-color: antiquewhite;
+}
+
+.btn-tarefa{
+   font-family: 'Open sans', sans-serif;
+   background-color: rgb(242, 252, 252);
+   border-radius: 5px;
+   border-style: outset;
+
+}
+.apagar{
+  background-color: rgb(218, 228, 228);
+  border-radius: 5px;
+  font-family: 'Open sans', sans-serif;
+
+}
+.apagar:hover {
+  background-color: antiquewhite;
+
+}
